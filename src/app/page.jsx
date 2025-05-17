@@ -14,6 +14,8 @@ function MainComponent() {
   const [showStats, setShowStats] = useState(false);
   const [statsData, setStatsData] = useState(null);
 
+
+  
   // Load tasks for the selected date
   useEffect(() => {
     async function loadTasks() {
