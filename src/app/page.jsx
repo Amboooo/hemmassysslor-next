@@ -367,4 +367,6 @@ function MainComponent() {
   );
 }
 
-export default MainComponent;
+export default function Page() {
+  return <MainComponent />;
+}
